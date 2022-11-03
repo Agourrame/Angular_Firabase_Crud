@@ -1,0 +1,14 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.namzapp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+  height: 70px;
+}

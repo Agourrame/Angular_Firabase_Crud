@@ -1,0 +1,9 @@
+ firebaseConfig = {
+  apiKey: "AIzaSyBP0GSuTMYH_zMUZecfwq9Jy-t-SvP6C4k",
+  authDomain: "app-todo-ac260.firebaseapp.com",
+  projectId: "app-todo-ac260",
+  storageBucket: "app-todo-ac260.appspot.com",
+  messagingSenderId: "193792899959",
+  appId: "1:193792899959:web:d717986c62989412c87f72",
+  measurementId: "G-0699BY87BK"
+};

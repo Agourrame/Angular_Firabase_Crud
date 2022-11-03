@@ -1,0 +1,13 @@
+<form (submit)="addTodo()">
+  <div class="inputform">
+    <div class="borderinput"><input [(ngModel)]="todoinput" name="todoinput" type="text" placeholder="write your task here"></div>
+    <button type="submit" id="bttn"><i class="uil uil-plus"></i></button>
+  </div>
+  </form>
+  <div class="singletodo" *ngFor="let obj of todo;let i=index" >
+     <div>ID° {{i}}</div>
+     <div (click)="togglechek(i)" [ngClass]="{'do':obj.check}">{{obj.task}}</div>
+     <button (click)="deletItem(i)" type="button" class="btn btn-danger"><i class="uil uil-file-times-alt"></i></button>
+  </div>
+
+

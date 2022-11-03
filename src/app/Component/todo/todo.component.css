@@ -1,0 +1,44 @@
+.singletodo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  background-color: rgba(206, 206, 206, 0.606);
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.do{
+  text-decoration:line-through;
+}
+.inputform{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.borderinput{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:270px;
+  height: 50px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+#bttn{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 30px;
+  border: none;
+  background-color: rgb(61, 213, 14);
+}
+
+input{
+  width: 90%;
+  height: 97%;
+  border: none;
+  outline: none;
+
+}
